@@ -1,39 +1,82 @@
-# React
+# Bill Tracker Pro - Modern Billing System
 
-A modern React-based project utilizing the latest frontend technologies and tools for building responsive web applications.
+A comprehensive React-based billing and point-of-sale system with modern UI, inventory management, receipt printing, and sales analytics.
+
+## 🌐 Live Demo
+
+**🚀 Live Application**: [https://karthik-garlapati.github.io/Billing-Software-/](https://karthik-garlapati.github.io/Billing-Software-/)
 
 ## 🚀 Features
 
-- **React 18** - React version with improved rendering and concurrent features
+- **Modern Billing System** - Complete point-of-sale with cart management
+- **Inventory Management** - Add, edit, and organize items with search functionality
+- **Receipt Printing** - Generate and print professional receipts
+- **Sales Dashboard** - Analytics with daily, weekly, and monthly reports
+- **Settings Management** - Customizable receipt templates and store information
+- **Responsive Design** - Works perfectly on desktop and mobile devices
+- **Offline Support** - Local storage with online sync capabilities
+- **React 18** - Latest React version with improved performance
 - **Vite** - Lightning-fast build tool and development server
-- **Redux Toolkit** - State management with simplified Redux setup
-- **TailwindCSS** - Utility-first CSS framework with extensive customization
-- **React Router v6** - Declarative routing for React applications
-- **Data Visualization** - Integrated D3.js and Recharts for powerful data visualization
-- **Form Management** - React Hook Form for efficient form handling
-- **Animation** - Framer Motion for smooth UI animations
-- **Testing** - Jest and React Testing Library setup
+- **TailwindCSS** - Modern utility-first CSS framework
+- **Supabase Integration** - Cloud database and authentication ready
+
+## 📱 Application Pages
+
+- **Billing Page** - Main POS interface with item selection and cart
+- **Dashboard** - Sales analytics and business insights  
+- **Settings** - Receipt customization and store configuration
+- **Client Management** - Customer database and profiles
+- **Invoice Management** - Create and manage invoices
+- **Reports** - Detailed sales and financial reports
 
 ## 📋 Prerequisites
 
 - Node.js (v14.x or higher)
 - npm or yarn
 
-## 🛠️ Installation
+## 🛠️ Installation & Development
 
-1. Install dependencies:
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/Karthik-garlapati/Billing-Software-.git
+   cd Billing-Software-
+   ```
+
+2. **Install dependencies**:
    ```bash
    npm install
    # or
    yarn install
    ```
    
-2. Start the development server:
+3. **Start the development server**:
    ```bash
    npm start
    # or
    yarn start
    ```
+
+4. **Build for production**:
+   ```bash
+   npm run build
+   # or
+   yarn build
+   ```
+
+## 🚀 Deployment
+
+This project is automatically deployed to GitHub Pages using GitHub Actions. Every push to the `main` branch triggers a new deployment.
+
+### Manual Deployment Steps:
+1. Push your changes to the `main` branch
+2. GitHub Actions automatically builds and deploys the application
+3. Visit the live URL: https://karthik-garlapati.github.io/Billing-Software-/
+
+### Local Build Testing:
+```bash
+npm run build
+npm run serve
+```
 
 ## 📁 Project Structure
 
